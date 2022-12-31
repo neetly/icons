@@ -22,7 +22,10 @@ for (const fileName of await zipFS.readdirPromise(".")) {
       `./src/icons/${name}.svg`,
       optimize(content, {
         multipass: true,
-        plugins: ["preset-default"],
+        plugins: [
+          "preset-default",
+          { name: "removeAttrs", params: { attrs: "fill" } },
+        ],
       }).data,
     );
 
