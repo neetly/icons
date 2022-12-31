@@ -1,4 +1,5 @@
 import type { SVGAttributes } from "react";
+
 const MediaPauseIcon = (props: SVGAttributes<SVGSVGElement>) => {
   return (
     <svg
@@ -11,4 +12,5 @@ const MediaPauseIcon = (props: SVGAttributes<SVGSVGElement>) => {
     </svg>
   );
 };
+
 export { MediaPauseIcon };

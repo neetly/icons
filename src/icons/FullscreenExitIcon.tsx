@@ -1,4 +1,5 @@
 import type { SVGAttributes } from "react";
+
 const FullscreenExitIcon = (props: SVGAttributes<SVGSVGElement>) => {
   return (
     <svg
@@ -11,4 +12,5 @@ const FullscreenExitIcon = (props: SVGAttributes<SVGSVGElement>) => {
     </svg>
   );
 };
+
 export { FullscreenExitIcon };

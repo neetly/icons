@@ -1,4 +1,5 @@
 import type { SVGAttributes } from "react";
+
 const BookmarkIcon = (props: SVGAttributes<SVGSVGElement>) => {
   return (
     <svg
@@ -11,4 +12,5 @@ const BookmarkIcon = (props: SVGAttributes<SVGSVGElement>) => {
     </svg>
   );
 };
+
 export { BookmarkIcon };

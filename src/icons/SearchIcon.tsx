@@ -1,4 +1,5 @@
 import type { SVGAttributes } from "react";
+
 const SearchIcon = (props: SVGAttributes<SVGSVGElement>) => {
   return (
     <svg
@@ -11,4 +12,5 @@ const SearchIcon = (props: SVGAttributes<SVGSVGElement>) => {
     </svg>
   );
 };
+
 export { SearchIcon };

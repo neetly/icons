@@ -14,7 +14,7 @@ await removeDirectory("./src/icons");
 const names = [];
 for (const fileName of await zipFS.readdirPromise(".")) {
   if (fileName.endsWith(" Icon.svg")) {
-    const name = fileName.slice(0, -4).replace(/ /g, "");
+    const name = fileName.slice(0, -4).replaceAll(" ", "");
     const content = await zipFS.readFilePromise(fileName, "utf-8");
     names.push(name);
 
@@ -28,33 +28,35 @@ for (const fileName of await zipFS.readdirPromise(".")) {
 
     writeFile(
       `./src/icons/${name}.tsx`,
-      await transform(
-        optimize(content, {
-          multipass: true,
-          plugins: [
-            "preset-default",
-            "removeDimensions",
-            { name: "removeAttrs", params: { attrs: "fill" } },
-          ],
-        }).data,
-        {
-          svgProps: {
-            "aria-hidden": "{true}",
+      (
+        await transform(
+          optimize(content, {
+            multipass: true,
+            plugins: [
+              "preset-default",
+              "removeDimensions",
+              { name: "removeAttrs", params: { attrs: "fill" } },
+            ],
+          }).data,
+          {
+            svgProps: {
+              "aria-hidden": "{true}",
+            },
+            typescript: true,
+            template: (variables, { tpl }) => {
+              return tpl`
+                import type { SVGAttributes } from "react";
+                /* empty-line */
+                const ${name} = (props: SVGAttributes<SVGSVGElement>) => {
+                  return ${variables.jsx};
+                };
+                /* empty-line */
+                export { ${name} as ${name} };
+              `;
+            },
           },
-          typescript: true,
-          template: (variables, { tpl }) => {
-            return tpl`
-              import type { SVGAttributes } from "react";
-
-              const ${name} = (props: SVGAttributes<SVGSVGElement>) => {
-                return ${variables.jsx};
-              };
-
-              export { ${name} as ${name} };
-            `;
-          },
-        },
-      ),
+        )
+      ).replaceAll("/* empty-line */", "\n"),
     );
   }
 }

@@ -1,4 +1,5 @@
 import type { SVGAttributes } from "react";
+
 const VolumeIcon = (props: SVGAttributes<SVGSVGElement>) => {
   return (
     <svg
@@ -12,4 +13,5 @@ const VolumeIcon = (props: SVGAttributes<SVGSVGElement>) => {
     </svg>
   );
 };
+
 export { VolumeIcon };

@@ -1,4 +1,5 @@
 import type { SVGAttributes } from "react";
+
 const AddIcon = (props: SVGAttributes<SVGSVGElement>) => {
   return (
     <svg
@@ -11,4 +12,5 @@ const AddIcon = (props: SVGAttributes<SVGSVGElement>) => {
     </svg>
   );
 };
+
 export { AddIcon };
