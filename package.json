@@ -19,8 +19,18 @@
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "peerDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*",
     "react": "*",
     "react-dom": "*"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@neetly/eslint-config": "^0.4.0",
