@@ -34,6 +34,7 @@ for (const fileName of await zipFS.readdirPromise(".")) {
             multipass: true,
             plugins: [
               "preset-default",
+              "removeXMLNS",
               "removeDimensions",
               { name: "removeAttrs", params: { attrs: "fill" } },
             ],
