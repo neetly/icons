@@ -8,4 +8,7 @@ const MoreIcon = (props: SVGAttributes<SVGSVGElement>) => {
   );
 };
 
-export { MoreIcon };
+const moreIcon =
+  '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M14 6a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm0 6a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-2 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"/></svg>';
+
+export { MoreIcon, moreIcon };

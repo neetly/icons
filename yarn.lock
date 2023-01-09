@@ -1647,6 +1647,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@neetly/icons@workspace:."
   dependencies:
+    "@babel/types": "npm:^7.20.7"
     "@neetly/eslint-config": "npm:^0.4.0"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@prettier/plugin-xml": "npm:^2.2.0"
