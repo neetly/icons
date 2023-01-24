@@ -366,6 +366,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.20.13":
+  version: 7.20.13
+  resolution: "@babel/parser@npm:7.20.13"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 01991ec7420dbdbf323067addd205690e7e599b1ed2c5fd0b6c2a0703b2dde4819828a5dce76e60efc07340470d8471b4122daa711536c44fa2ae0b9bd8a5732
+  languageName: node
+  linkType: hard
+
 "@babel/parser@npm:^7.20.7":
   version: 7.20.7
   resolution: "@babel/parser@npm:7.20.7"
@@ -1393,7 +1402,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.18.6, @babel/types@npm:^7.18.9, @babel/types@npm:^7.19.0, @babel/types@npm:^7.20.0, @babel/types@npm:^7.20.2, @babel/types@npm:^7.20.5, @babel/types@npm:^7.20.7, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.18.6, @babel/types@npm:^7.18.9, @babel/types@npm:^7.19.0, @babel/types@npm:^7.20.0, @babel/types@npm:^7.20.2, @babel/types@npm:^7.20.5, @babel/types@npm:^7.20.7, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
   version: 7.20.7
   resolution: "@babel/types@npm:7.20.7"
   dependencies:
@@ -1622,6 +1631,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@neetly/codegen-utils@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@neetly/codegen-utils@npm:0.1.0"
+  dependencies:
+    "@babel/generator": "npm:^7.20.7"
+    "@babel/parser": "npm:^7.20.13"
+    "@babel/template": "npm:^7.20.7"
+    "@babel/types": "npm:^7.20.7"
+    "@types/babel__generator": "npm:^7.6.4"
+    "@types/babel__template": "npm:^7.4.1"
+    "@types/prettier": "npm:^2.7.2"
+  peerDependencies:
+    prettier: "*"
+  checksum: 99387c87fd4095f60c7090e3917805e5d0875e8daf4e1d7c6ff101cccff5a493fef1024ea1cc612cb480f58b649d1b77c63cb26178e441f32811768a51b9b7d6
+  languageName: node
+  linkType: hard
+
 "@neetly/eslint-config@npm:^0.4.0":
   version: 0.4.0
   resolution: "@neetly/eslint-config@npm:0.4.0"
@@ -1648,6 +1674,7 @@ __metadata:
   resolution: "@neetly/icons@workspace:."
   dependencies:
     "@babel/types": "npm:^7.20.7"
+    "@neetly/codegen-utils": "npm:^0.1.0"
     "@neetly/eslint-config": "npm:^0.4.0"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@prettier/plugin-xml": "npm:^2.2.0"
@@ -1956,6 +1983,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/babel__generator@npm:^7.6.4":
+  version: 7.6.4
+  resolution: "@types/babel__generator@npm:7.6.4"
+  dependencies:
+    "@babel/types": "npm:^7.0.0"
+  checksum: 2e66f16ed0a281f0dc050a8ef4cc9866b790cef758d8defe7c51cb045f6226d2224379fd18d7a17618619b3c6db863aff29db75eb1110c603822455e5985c27d
+  languageName: node
+  linkType: hard
+
+"@types/babel__template@npm:^7.4.1":
+  version: 7.4.1
+  resolution: "@types/babel__template@npm:7.4.1"
+  dependencies:
+    "@babel/parser": "npm:^7.1.0"
+    "@babel/types": "npm:^7.0.0"
+  checksum: ba9a947c2d7f52aae25cc4d9d1a2e47901e43f04a85b9d05603411761cd0253f983f41e34b771703328d8608150ba7292bdad4fffc20177ee42bc621f176e083
+  languageName: node
+  linkType: hard
+
 "@types/body-parser@npm:*":
   version: 1.19.2
   resolution: "@types/body-parser@npm:1.19.2"
@@ -2145,6 +2191,13 @@ __metadata:
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
   checksum: bea37b307bdeb352d27a4467cac738387641c4f9dfe6c8bf559d474a036952f7b998f0ac54290f9d8765fb79e154f3941dfefbb47296a987fb55ccedf344a0e6
+  languageName: node
+  linkType: hard
+
+"@types/prettier@npm:^2.7.2":
+  version: 2.7.2
+  resolution: "@types/prettier@npm:2.7.2"
+  checksum: d4d09d291ec7017ed30cc2bac5a51dbd5de02e2d75389a4c724ac6c3d7bb99da3173f57247d832b8f83c154dc8006cbdc35e565c1f1bf6869718d25857e430db
   languageName: node
   linkType: hard
 

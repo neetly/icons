@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 
 import * as t from "@babel/types";
+import { removeDirectory, writeFile } from "@neetly/codegen-utils";
 import { transform } from "@svgr/core";
 import { ZipFS } from "@yarnpkg/libzip";
 import { optimize } from "svgo";
-
-import { removeDirectory, writeFile } from "./utils.mjs";
 
 const zipFile = process.argv[2];
 const zipFS = new ZipFS(zipFile);

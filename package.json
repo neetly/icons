@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "@babel/types": "^7.20.7",
+    "@neetly/codegen-utils": "^0.1.0",
     "@neetly/eslint-config": "^0.4.0",
     "@neetly/tsconfig": "^0.2.0",
     "@prettier/plugin-xml": "^2.2.0",
