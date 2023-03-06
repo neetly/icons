@@ -1679,7 +1679,7 @@ __metadata:
     "@svgr/core": "npm:^6.5.1"
     "@types/react": "npm:^18.0.28"
     "@types/react-dom": "npm:^18.0.11"
-    "@yarnpkg/libzip": "npm:3.0.0-rc.39"
+    "@yarnpkg/libzip": "npm:3.0.0-rc.40"
     buncho: "npm:^6.0.5"
     eslint: "npm:^8.35.0"
     prettier: "npm:^2.8.4"
@@ -2641,25 +2641,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.39":
-  version: 3.0.0-rc.39
-  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.39"
+"@yarnpkg/fslib@npm:^3.0.0-rc.40":
+  version: 3.0.0-rc.40
+  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.40"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 683e86493b407d8a4cda1a351176c3ce468f9c7f73605dc82a7fcb1731ff78c92b229aa032e8b587f6394c3ecad7754e16b92359279a33f09aaa408eb862b3d7
+  checksum: 5721716464cd3f65c9f963bf2ab8e64c160b519a13b6517aad05bbf18ec80438b03bbb98bb7b771da7b6290c5f7bbd43360f0db98a7e62c9722cb8c837d6a111
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:3.0.0-rc.39":
-  version: 3.0.0-rc.39
-  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.39"
+"@yarnpkg/libzip@npm:3.0.0-rc.40":
+  version: 3.0.0-rc.40
+  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.40"
   dependencies:
     "@types/emscripten": "npm:^1.39.6"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.39"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.40"
     tslib: "npm:^2.4.0"
   peerDependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.39
-  checksum: e821832761431ec8e2e78dfa9d0cb89d539e5760128c49b9a845552cfae810b4b2ba7812bf11a562d485f380bf670507b142f721ff6985ece44c476959c12103
+    "@yarnpkg/fslib": ^3.0.0-rc.40
+  checksum: 6154d44583438cc4cbb24ec44972758e1bb37f66483b0482418c1afe1e6e5a208308961c3cb3a4ac0d648d22e109dc898f59d69af51ea4d9284a99e3da2ae06b
   languageName: node
   linkType: hard
 
