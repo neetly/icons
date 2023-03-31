@@ -1393,14 +1393,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.0.0, @babel/types@npm:^7.18.6, @babel/types@npm:^7.18.9, @babel/types@npm:^7.19.0, @babel/types@npm:^7.20.0, @babel/types@npm:^7.20.2, @babel/types@npm:^7.20.5, @babel/types@npm:^7.20.7, @babel/types@npm:^7.21.3, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
-  version: 7.21.3
-  resolution: "@babel/types@npm:7.21.3"
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.18.6, @babel/types@npm:^7.18.9, @babel/types@npm:^7.19.0, @babel/types@npm:^7.20.0, @babel/types@npm:^7.20.2, @babel/types@npm:^7.20.5, @babel/types@npm:^7.20.7, @babel/types@npm:^7.21.4, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
+  version: 7.21.4
+  resolution: "@babel/types@npm:7.21.4"
   dependencies:
     "@babel/helper-string-parser": "npm:^7.19.4"
     "@babel/helper-validator-identifier": "npm:^7.19.1"
     to-fast-properties: "npm:^2.0.0"
-  checksum: ee92ebb0c92a821ff938ca18283f92b159d6467618fd086b8307b4ebfbfb49f1e6a55111c944ee51000449ce8bc7abd4b8a7c8f24ba0361cfb2455412d3305e4
+  checksum: 1e29682d76702fce50c83d131b19c19f84c07f5dd1fff23679505414d768297f9852bc0bbdfbacbcdb893e75bde111cfa03da8d0cff0e7e8ceb9da6eee23ad98
   languageName: node
   linkType: hard
 
@@ -1678,7 +1678,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@neetly/icons@workspace:."
   dependencies:
-    "@babel/types": "npm:^7.21.3"
+    "@babel/types": "npm:^7.21.4"
     "@neetly/codegen-utils": "npm:^0.1.0"
     "@neetly/eslint-config": "npm:^0.4.0"
     "@neetly/tsconfig": "npm:^0.3.0"
