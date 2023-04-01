@@ -1686,7 +1686,7 @@ __metadata:
     "@svgr/core": "npm:^6.5.1"
     "@types/react": "npm:^18.0.29"
     "@types/react-dom": "npm:^18.0.11"
-    "@yarnpkg/libzip": "npm:3.0.0-rc.40"
+    "@yarnpkg/libzip": "npm:3.0.0-rc.42"
     buncho: "npm:^6.0.5"
     eslint: "npm:^8.36.0"
     prettier: "npm:^2.8.7"
@@ -2648,25 +2648,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.40":
-  version: 3.0.0-rc.40
-  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.40"
+"@yarnpkg/fslib@npm:^3.0.0-rc.42":
+  version: 3.0.0-rc.42
+  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.42"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 5721716464cd3f65c9f963bf2ab8e64c160b519a13b6517aad05bbf18ec80438b03bbb98bb7b771da7b6290c5f7bbd43360f0db98a7e62c9722cb8c837d6a111
+  checksum: bb396df895fb78ff5f9278fb1e936fac5e50624720f332a4bb3e5c1be6381b28eac0d410f20f93f54613c9308bf36a9d5375ea0e69da2adf0011414d1edf9eb0
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:3.0.0-rc.40":
-  version: 3.0.0-rc.40
-  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.40"
+"@yarnpkg/libzip@npm:3.0.0-rc.42":
+  version: 3.0.0-rc.42
+  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.42"
   dependencies:
     "@types/emscripten": "npm:^1.39.6"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.40"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.42"
     tslib: "npm:^2.4.0"
   peerDependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.40
-  checksum: 6154d44583438cc4cbb24ec44972758e1bb37f66483b0482418c1afe1e6e5a208308961c3cb3a4ac0d648d22e109dc898f59d69af51ea4d9284a99e3da2ae06b
+    "@yarnpkg/fslib": ^3.0.0-rc.42
+  checksum: cb4350c65a7e5834ae79c8ff138d70491011e312adb64bcf79c5b6962db2e14a48afd4c8b0f6568a5570aafee1185ec45ab8cf5c63ad1cc9c8c7d40a21aec8cb
   languageName: node
   linkType: hard
 
@@ -8686,11 +8686,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.0.3#optional!builtin<compat/typescript>":
   version: 5.0.3
-  resolution: "typescript@patch:typescript@npm%3A5.0.3#optional!builtin<compat/typescript>::version=5.0.3&hash=85af82"
+  resolution: "typescript@patch:typescript@npm%3A5.0.3#optional!builtin<compat/typescript>::version=5.0.3&hash=b5f058"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: abfaadda7e8a7b39f40dc4e23dc9b74a5833a45e3905271c7642a35a1297a30e30bb63c7dfddaced17aa8aa871bd6b8ba1ccf8aea6d80212dc168f0cbfb4ca4f
+  checksum: 66967b1418927f8c780bcec443e6e1572d0c88314e3b45797d22bffc8981b3c8e687a37f24bcad00e2d349722df225e758678559e810a6673f4773b8f44eb5d2
   languageName: node
   linkType: hard
 
