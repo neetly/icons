@@ -38,7 +38,7 @@
     "@neetly/eslint-config": "^0.4.0",
     "@neetly/tsconfig": "^0.3.0",
     "@prettier/plugin-xml": "^2.2.0",
-    "@svgr/core": "^6.5.1",
+    "@svgr/core": "^7.0.0",
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
     "@yarnpkg/libzip": "3.0.0-rc.42",
