@@ -39,7 +39,7 @@
     "@neetly/tsconfig": "^0.3.0",
     "@prettier/plugin-xml": "^2.2.0",
     "@svgr/core": "^7.0.0",
-    "@types/react": "^18.0.34",
+    "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
     "@yarnpkg/libzip": "3.0.0-rc.42",
     "buncho": "^6.1.0",
