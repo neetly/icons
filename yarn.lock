@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 7
+  version: 8
   cacheKey: 9
 
 "@ampproject/remapping@npm:^2.2.0":
@@ -1708,7 +1708,7 @@ __metadata:
     "@svgr/core": "npm:^7.0.0"
     "@types/react": "npm:^18.2.13"
     "@types/react-dom": "npm:^18.2.6"
-    "@yarnpkg/libzip": "npm:3.0.0-rc.45"
+    "@yarnpkg/libzip": "npm:3.0.0-rc.48"
     buncho: "npm:^6.1.0"
     eslint: "npm:^8.43.0"
     prettier: "npm:^2.8.8"
@@ -2639,25 +2639,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.45":
-  version: 3.0.0-rc.45
-  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.45"
+"@yarnpkg/fslib@npm:^3.0.0-rc.48":
+  version: 3.0.0-rc.48
+  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.48"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 11893d1c4bd7bc4ba4f740ec3fc37c42fbf72dc6ea801c213bd36f3bc44fb5c0ffc3008de277a97a546cc0e33fe8c614bf7a3bd6e7195d463f76bfa315df72f8
+  checksum: 10/613b5b722efcec3d3df08cf2dee6e33808a5612f2e6e694ae3c1c1c804ec8640fd1909009b0d8347b818cdcef5958d93501f65373081bbf275e504412b0ed0d7
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:3.0.0-rc.45":
-  version: 3.0.0-rc.45
-  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.45"
+"@yarnpkg/libzip@npm:3.0.0-rc.48":
+  version: 3.0.0-rc.48
+  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.48"
   dependencies:
     "@types/emscripten": "npm:^1.39.6"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.45"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.48"
     tslib: "npm:^2.4.0"
   peerDependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.45
-  checksum: 3fec46f9ff7c3b7a8da6cb44317243ab967d83eee451fa5d16395fc40ae4a8037a0006bf3d35f41d3bb943f2a1ae3545bf9d3123ff93fe131baf4180720b996a
+    "@yarnpkg/fslib": ^3.0.0-rc.48
+  checksum: 10/b8163b9ce74f2d5dd97297ee37f8f23133856f460bd052731972bd53457462013381dbbda8c51606ccb66ca4dac6e7e1b87d7091227ffa949c9f0c6759a370c3
   languageName: node
   linkType: hard
 
