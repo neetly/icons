@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-import * as t from "@babel/types";
-import { removeDirectory, writeFile } from "@neetly/codegen-utils";
+import { removeDirectory, t, writeFile } from "@neetly/codegen-utils";
 import { transform } from "@svgr/core";
 import { ZipFS } from "@yarnpkg/libzip";
 import { optimize } from "svgo";

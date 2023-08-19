@@ -33,7 +33,6 @@
     }
   },
   "devDependencies": {
-    "@babel/types": "^7.22.10",
     "@neetly/codegen-utils": "^0.2.0",
     "@neetly/eslint-config": "^0.5.1",
     "@neetly/tsconfig": "^0.3.0",
