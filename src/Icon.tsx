@@ -4,4 +4,4 @@ type IconType = ComponentType<IconProps>;
 
 type IconProps = SVGAttributes<SVGSVGElement>;
 
-export type { IconProps, IconType };
+export { type IconProps, type IconType };
