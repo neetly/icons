@@ -40,7 +40,7 @@
     "@svgr/core": "^8.1.0",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
-    "@yarnpkg/libzip": "3.0.0-rc.49",
+    "@yarnpkg/libzip": "3.0.0-rc.50",
     "buncho": "^6.2.0",
     "eslint": "^8.49.0",
     "prettier": "^3.0.3",
@@ -49,5 +49,5 @@
     "svgo": "^3.0.2",
     "typescript": "^5.2.2"
   },
-  "packageManager": "yarn@4.0.0-rc.49"
+  "packageManager": "yarn@4.0.0-rc.50"
 }
