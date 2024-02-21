@@ -36,7 +36,7 @@
     "@neetly/codegen-utils": "0.2.0",
     "@neetly/eslint-config": "0.7.0",
     "@neetly/tsconfig": "0.3.0",
-    "@prettier/plugin-xml": "3.2.2",
+    "@prettier/plugin-xml": "3.3.1",
     "@svgr/core": "8.1.0",
     "@svgr/plugin-jsx": "8.1.0",
     "@types/react": "18.2.57",
