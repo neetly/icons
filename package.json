@@ -39,7 +39,7 @@
     "@prettier/plugin-xml": "3.3.1",
     "@svgr/core": "8.1.0",
     "@svgr/plugin-jsx": "8.1.0",
-    "@types/react": "18.2.61",
+    "@types/react": "18.2.74",
     "@types/react-dom": "18.2.19",
     "@yarnpkg/libzip": "3.0.1",
     "buncho": "6.2.0",
